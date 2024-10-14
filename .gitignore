@@ -1,0 +1,22 @@
+# Go build artifacts
+*.exe
+*.out
+*.test
+
+# Vendor directory
+vendor/
+
+# Binary output
+bin/
+pkg/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+
+# Local env files
+.env
+*.env
