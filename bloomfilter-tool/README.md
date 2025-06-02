@@ -70,11 +70,11 @@ p = pow(1 - exp(-k / (m / n)), k)
         log.Println("Hata:", err)
         // Yeni filtre oluştur
     }
-```
+    ```
 
 ## Örnek Çıktı
 
-```
+```text
 Adding item: bloom
   Hash 0 -> index: 1234 (byte: 154, bit: 2)
   Hash 1 -> index: 5678 (byte: 709, bit: 6)
