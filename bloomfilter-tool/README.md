@@ -1,4 +1,4 @@
-# Bloom Filter Implementation in Go
+# Go ile Bloom Filtre Uygulaması - (Bloom Filter Implementation in Go)
 
 Bu proje, Go programlama dili kullanılarak implemente edilmiş verimli bir **Bloom Filter** yapısını içerir. Bloom Filter, büyük veri kümelerinde bir elemanın varlığını test etmek için kullanılan, bellek açısından verimli bir olasılıksal veri yapısıdır.
 
