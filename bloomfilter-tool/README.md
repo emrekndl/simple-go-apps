@@ -47,10 +47,10 @@ p = pow(1 - exp(-k / (m / n)), k)
 
 1. **Gereksinimler**: Sisteminizde [Go](https://golang.org/dl/) yüklü olmalı (v1.16+)
 
-2. **Kodu indirin**:
+2. **Kurulum**:
    ```bash
-   git clone https://github.com/simple-go-apps/bloom-filter-tool.git
-   cd bloom-filter-tool
+   git clone https://github.com/simple-go-apps.git
+   cd simple-go-apps/bloom-filter-tool
    ```
 
 3. **Programı çalıştırın**:
@@ -71,22 +71,18 @@ p = pow(1 - exp(-k / (m / n)), k)
         // Yeni filtre oluştur
     }
 ```
+
 ## Örnek Çıktı
 
 ```
 Adding item: bloom
   Hash 0 -> index: 1234 (byte: 154, bit: 2)
   Hash 1 -> index: 5678 (byte: 709, bit: 6)
-  ...
 Adding item: filter
-  ...
-
 Checking item: dünya
   Hash 0 -> index: 2345 (byte: 293, bit: 1) = true
   Hash 1 -> index: 6789 (byte: 848, bit: 5) = true
-  ...
 Result: true
-
 Checking item: xqdmw
   Hash 0 -> index: 3456 (byte: 432, bit: 0) = false
   Result: false
